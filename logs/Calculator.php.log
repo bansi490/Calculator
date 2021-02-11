@@ -1,0 +1,161 @@
+[10-Feb-2021 17:24:41 UTC] INSERT INTO tbl_calculator (num1, num2, oper, answer)
+                VALUES (122, 2, 'div', 61 )
+[10-Feb-2021 17:24:41 UTC] New record created successfully
+[10-Feb-2021 17:50:27 UTC] INSERT INTO tbl_calculator (num1, num2, oper, answer)
+                VALUES (10, 2, 'sub', 8 )
+[10-Feb-2021 17:50:27 UTC] New record created successfully
+[10-Feb-2021 17:50:32 UTC] INSERT INTO tbl_calculator (num1, num2, oper, answer)
+                VALUES (10, 2, 'sub', 8 )
+[10-Feb-2021 17:50:32 UTC] New record created successfully
+[10-Feb-2021 18:04:22 UTC] INSERT INTO tbl_calculator (num1, num2, oper, answer)
+                VALUES (10, 20, 'mul', 200 )
+[10-Feb-2021 18:04:22 UTC] New record created successfully
+[10-Feb-2021 18:20:25 UTC] PHP Fatal error:  Uncaught Error: Call to protected method Calculator::exec() from context '' in C:\wamp64\www\Calculator\call.php:11
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\Calculator\call.php on line 11
+[10-Feb-2021 20:51:07 UTC] PHP Fatal error:  Uncaught Error: Call to protected method Calculator::exec() from context '' in C:\wamp64\www\Calculator\call.php:11
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\Calculator\call.php on line 11
+[10-Feb-2021 21:32:39 UTC] PHP Fatal error:  Uncaught Error: Call to protected method Calculator::exec() from context '' in C:\wamp64\www\Calculator\call.php:11
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\Calculator\call.php on line 11
+[10-Feb-2021 21:32:40 UTC] PHP Fatal error:  Uncaught Error: Call to protected method Calculator::exec() from context '' in C:\wamp64\www\Calculator\call.php:11
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\Calculator\call.php on line 11
+[11-Feb-2021 11:50:07 UTC] INSERT INTO tbl_calculator (num1, num2, oper, answer)
+                VALUES (10, 2, 'sub', 8 )
+[11-Feb-2021 11:50:07 UTC] New record created successfully
+[11-Feb-2021 11:52:41 UTC] INSERT INTO tbl_calculator (num1, num2, oper, answer)
+                VALUES (122, 2, 'mul', 244 )
+[11-Feb-2021 11:52:41 UTC] New record created successfully
+[11-Feb-2021 11:55:17 UTC] PHP Fatal error:  Uncaught Error: Call to protected method Calculator::exec() from context '' in C:\wamp64\www\Calculator\call.php:11
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\Calculator\call.php on line 11
+[11-Feb-2021 11:56:57 UTC] INSERT INTO tbl_calculator (num1, num2, oper, answer)
+                VALUES (10, 2, 'add', 12 )
+[11-Feb-2021 11:56:57 UTC] New record created successfully
+[11-Feb-2021 11:59:04 UTC] INSERT INTO tbl_calculator (num1, num2, oper, answer)
+                VALUES (10, 2, 'mul', 20 )
+[11-Feb-2021 11:59:04 UTC] New record created successfully
+[11-Feb-2021 12:02:34 UTC] INSERT INTO tbl_calculator (num1, num2, oper, answer)
+                VALUES (10, 2, 'add', 12 )
+[11-Feb-2021 12:02:34 UTC] New record created successfully
+[11-Feb-2021 12:02:45 UTC] INSERT INTO tbl_calculator (num1, num2, oper, answer)
+                VALUES (10, 2, 'add', 12 )
+[11-Feb-2021 12:02:45 UTC] New record created successfully
+[11-Feb-2021 12:03:18 UTC] INSERT INTO tbl_calculator (num1, num2, oper, answer)
+                VALUES (122, 2, 'sub', 120 )
+[11-Feb-2021 12:03:18 UTC] New record created successfully
+[11-Feb-2021 12:03:53 UTC] INSERT INTO tbl_calculator (num1, num2, oper, answer)
+                VALUES (1, 2, 'sub', -1 )
+[11-Feb-2021 12:03:53 UTC] New record created successfully
+[11-Feb-2021 12:05:23 UTC] INSERT INTO tbl_calculator (num1, num2, oper, answer)
+                VALUES (45, 5, 'add', 50 )
+[11-Feb-2021 12:05:23 UTC] New record created successfully
+[11-Feb-2021 12:09:05 UTC] INSERT INTO tbl_calculator (num1, num2, oper, answer)
+                VALUES (10, 20, 'add', 30 )
+[11-Feb-2021 12:09:05 UTC] New record created successfully
+[11-Feb-2021 12:10:11 UTC] INSERT INTO tbl_calculator (num1, num2, oper, answer)
+                VALUES (10, 20, 'add', 30 )
+[11-Feb-2021 12:10:11 UTC] New record created successfully
+[11-Feb-2021 12:10:21 UTC] INSERT INTO tbl_calculator (num1, num2, oper, answer)
+                VALUES (10, 20, 'add', 30 )
+[11-Feb-2021 12:10:21 UTC] New record created successfully
+
+[11-Feb-2021 18:30:52 UTC] INSERT INTO tbl_calculator (num1, num2, oper, answer)
+                VALUES (123, 20, 'add', 143 )
+[11-Feb-2021 18:30:52 UTC] New record created successfully
+[11-Feb-2021 18:31:40 UTC] PHP Fatal error:  Uncaught Error: Class 'Calc_history' not found in C:\wamp64\www\Calculator\includes\history.php:7
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\Calculator\includes\history.php on line 7
+[11-Feb-2021 18:32:19 UTC] PHP Fatal error:  Uncaught Error: Class 'Calc_history' not found in C:\wamp64\www\Calculator\includes\history.php:7
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\Calculator\includes\history.php on line 7
+[11-Feb-2021 18:38:08 UTC] INSERT INTO tbl_calculator (num1, num2, oper, answer)
+                VALUES (122, 20, 'add', 142 )
+[11-Feb-2021 18:38:08 UTC] New record created successfully
+[11-Feb-2021 18:38:54 UTC] INSERT INTO tbl_calculator (num1, num2, oper, answer)
+                VALUES (10, 20, 'add', 30 )
+[11-Feb-2021 18:38:54 UTC] New record created successfully
+[11-Feb-2021 19:00:10 UTC] INSERT INTO tbl_calculator (num1, num2, oper, answer)
+                VALUES (10, 20, 'mul', 200 )
+[11-Feb-2021 19:00:10 UTC] New record created successfully
+[11-Feb-2021 21:01:55 UTC] INSERT INTO tbl_calculator (num1, num2, oper, answer)
+                VALUES (5000, 2435, 'mul', 12175000 )
+[11-Feb-2021 21:01:55 UTC] New record created successfully
+[11-Feb-2021 21:02:13 UTC] INSERT INTO tbl_calculator (num1, num2, oper, answer)
+                VALUES (51.45, 6.5, 'div', 7.9153846153846 )
+[11-Feb-2021 21:02:13 UTC] New record created successfully
+[11-Feb-2021 21:02:30 UTC] INSERT INTO tbl_calculator (num1, num2, oper, answer)
+                VALUES (51.4535435, 6.53432, 'div', 7.874353184417 )
+[11-Feb-2021 21:02:30 UTC] New record created successfully
+[11-Feb-2021 21:02:59 UTC] INSERT INTO tbl_calculator (num1, num2, oper, answer)
+                VALUES (122.3432, 6.53432, 'mul', 799.429618624 )
+[11-Feb-2021 21:02:59 UTC] New record created successfully
+[11-Feb-2021 21:11:44 UTC] INSERT INTO tbl_calculator (num1, num2, oper, answer)
+                VALUES (0, 0, 'add', 0 )
+[11-Feb-2021 21:11:44 UTC] New record created successfully
+[11-Feb-2021 21:11:44 UTC] INSERT INTO tbl_calculator (num1, num2, oper, answer)
+                VALUES (0, 0, 'add', 0 )
+[11-Feb-2021 21:11:44 UTC] New record created successfully
+[11-Feb-2021 21:11:50 UTC] INSERT INTO tbl_calculator (num1, num2, oper, answer)
+                VALUES (0, 0, 'add', 0 )
+[11-Feb-2021 21:11:50 UTC] New record created successfully
+[11-Feb-2021 21:11:55 UTC] INSERT INTO tbl_calculator (num1, num2, oper, answer)
+                VALUES (0, 0, 'add', 0 )
+[11-Feb-2021 21:11:55 UTC] New record created successfully
+[11-Feb-2021 21:12:05 UTC] INSERT INTO tbl_calculator (num1, num2, oper, answer)
+                VALUES (122, 6.5, 'add', 128.5 )
+[11-Feb-2021 21:12:05 UTC] New record created successfully
+[11-Feb-2021 21:13:13 UTC] INSERT INTO tbl_calculator (num1, num2, oper, answer)
+                VALUES (0, 0, 'add', 0 )
+[11-Feb-2021 21:13:13 UTC] New record created successfully
+[11-Feb-2021 21:13:14 UTC] INSERT INTO tbl_calculator (num1, num2, oper, answer)
+                VALUES (0, 0, 'add', 0 )
+[11-Feb-2021 21:13:14 UTC] New record created successfully
+[11-Feb-2021 21:14:12 UTC] INSERT INTO tbl_calculator (num1, num2, oper, answer)
+                VALUES (0, 0, 'add', 0 )
+[11-Feb-2021 21:14:12 UTC] New record created successfully
+[11-Feb-2021 21:14:16 UTC] INSERT INTO tbl_calculator (num1, num2, oper, answer)
+                VALUES (0, 0, 'add', 0 )
+[11-Feb-2021 21:14:16 UTC] New record created successfully
+[11-Feb-2021 21:14:41 UTC] INSERT INTO tbl_calculator (num1, num2, oper, answer)
+                VALUES (0, 0, 'add', 0 )
+[11-Feb-2021 21:14:41 UTC] New record created successfully
+[11-Feb-2021 21:14:42 UTC] INSERT INTO tbl_calculator (num1, num2, oper, answer)
+                VALUES (0, 0, 'add', 0 )
+[11-Feb-2021 21:14:42 UTC] New record created successfully
+[11-Feb-2021 21:14:44 UTC] INSERT INTO tbl_calculator (num1, num2, oper, answer)
+                VALUES (0, 0, 'add', 0 )
+[11-Feb-2021 21:14:44 UTC] New record created successfully
+[11-Feb-2021 21:14:45 UTC] INSERT INTO tbl_calculator (num1, num2, oper, answer)
+                VALUES (0, 0, 'add', 0 )
+[11-Feb-2021 21:14:45 UTC] New record created successfully
+[11-Feb-2021 21:14:47 UTC] INSERT INTO tbl_calculator (num1, num2, oper, answer)
+                VALUES (0, 0, 'add', 0 )
+[11-Feb-2021 21:14:47 UTC] New record created successfully
+[11-Feb-2021 21:25:23 UTC] INSERT INTO tbl_calculator (num1, num2, oper, answer)
+                VALUES (37, 13, 'sub', 24 )
+[11-Feb-2021 21:25:23 UTC] New record created successfully
+[11-Feb-2021 21:26:11 UTC] INSERT INTO tbl_calculator (num1, num2, oper, answer)
+                VALUES (125, 5, 'mul', 625 )
+[11-Feb-2021 21:26:11 UTC] New record created successfully
+[11-Feb-2021 21:37:00 UTC] INSERT INTO tbl_calculator (num1, num2, oper, answer)
+                VALUES (0, 3, 'mul', 0 )
+[11-Feb-2021 21:37:00 UTC] New record created successfully
+[11-Feb-2021 21:37:17 UTC] INSERT INTO tbl_calculator (num1, num2, oper, answer)
+                VALUES (7.5, 2, 'div', 3.75 )
+[11-Feb-2021 21:37:17 UTC] New record created successfully
+[11-Feb-2021 21:37:41 UTC] INSERT INTO tbl_calculator (num1, num2, oper, answer)
+                VALUES (14.375, 28.5, 'mul', 409.6875 )
+[11-Feb-2021 21:37:41 UTC] New record created successfully
+[11-Feb-2021 21:51:51 UTC] INSERT INTO tbl_calculator (num1, num2, oper, answer)
+                VALUES (122.5, 6.5, 'sub', 116 )
+[11-Feb-2021 21:51:51 UTC] New record created successfully

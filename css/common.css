@@ -1,0 +1,125 @@
+/*
+ * Author:        Pierre-Henry Soria <ph7software@gmail.com>
+ * Copyright:     (c) 2012-2015, Pierre-Henry Soria. All Rights Reserved.
+ * License:       CC BY <http://creativecommons.org/licenses/by/3.0/>
+ */
+ 
+ * {box-sizing: border-box;}
+
+html {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  font-family: Arial,Verdana,Helvetica,sans-serif;
+  font-size: 20px;
+  color: #fff;
+  background: #7e7b7b;
+  margin-top: 20px;
+}
+
+.center, .container {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  margin-bottom: 40px;
+}
+
+footer {
+  font-size: 11px;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  padding: 1px 10px;
+  clear: both;
+  border-top: 1px dotted #999;
+}
+
+.small {
+  font-size: x-small;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.underline {
+  text-decoration:underline;
+}
+
+abbr {
+  border-bottom: 1px dotted #666;
+}
+
+.success {
+  color: green;
+}
+
+.warning, .error, .mandatory {
+  color: red;
+}
+
+.success, .bold, .warning, .error {
+  font-weight: bold;
+}
+
+ul li {
+  display:block;
+}
+
+
+/* Style the form - display items horizontally */
+.form-inline {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  width: fit-content;
+  margin: 0 15%;
+}
+
+/* Add some margins for each label */
+.form-inline label {
+  margin: 5px 10px 5px 0;
+}
+
+/* Style the input fields */
+.form-inline input, select {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+/* Style the submit button */
+.form-inline input[type=button] {
+  padding: 10px 20px;
+  background-color: #ff9800;;
+  border: 1px solid #497cae;
+  color: white;
+}
+
+.form-inline input[type=button]:hover {
+  background-color: #e68a00;
+}
+
+
+@media (max-width: 800px) {
+  .form-inline input {
+    margin: 10px 0;
+  }
+
+  .form-inline {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+
+
+
+ /* Small Top Margin */
+.s_tMarg{margin-top:20px}
