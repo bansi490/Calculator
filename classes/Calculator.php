@@ -5,15 +5,15 @@
  * @Link            http://github.com/bansi490/
  */
 
+/** @include common file for default configration */
 include_once __DIR__."/../includes/common.php";
 
 /** create log file for the calculator class */
 $log = __DIR__."/../logs/".basename(__FILE__).".log";
 ini_set('error_log', $log);
 
-
 /**
- * Calculator
+ * Calculator api for execute the common mathematics opration
  */
 class Calculator
 {
